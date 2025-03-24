@@ -4,15 +4,28 @@ import org.example.homework4.BankAccount;
 import org.example.homework4.Homework4;
 import org.example.homework4.Library;
 import org.example.homework4.Student;
+import org.example.homework5.Homework5;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // ДЗ 5.1:
+        Homework5.testHW5_1();
+        // ДЗ 5.2:
+//        Homework5.testHW5_2();
+        // ДЗ 5.3:
+//        Homework5.testHW5_3();
+        // ДЗ 5.4:
+//        Homework5.testHW5_4();
+        // ДЗ 5.5:
+//        Homework5.testHW5_5();
+        // ДЗ 5.6:
+//        Homework5.testHW5_6();
 
         // ДЗ 4.1:
-        Homework4.testHW4_1();
+//        Homework4.testHW4_1();
         // ДЗ 4.2:
 //        Homework4.testHW4_2();
         // ДЗ 4.3:

@@ -23,9 +23,9 @@ import java.util.Iterator;
 public class HW5_2 {
     private HashSet<String> strings = new HashSet<>();
 
-    public static ArrayList<String> getStringsWithDigits() {
+    public ArrayList<String> getStringsWithDigits() {
         ArrayList<String> strwDigits = new ArrayList<>();
-        Iterator<String> i = strwDigits.iterator();
+        Iterator<String> i = strings.iterator();
         boolean hasDigit;
 
         while (i.hasNext()) {

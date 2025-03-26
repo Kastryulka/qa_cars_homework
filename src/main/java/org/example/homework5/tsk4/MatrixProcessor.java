@@ -1,6 +1,5 @@
-package org.example.homework5;
+package org.example.homework5.tsk4;
 
-import java.util.Arrays;
 import java.util.HashSet;
 
 /**
@@ -15,12 +14,17 @@ import java.util.HashSet;
 public class MatrixProcessor {
     public static HashSet<Integer> findUniqueInMatrix(int[][] matrix) {
         HashSet<Integer> uniqueValues = new HashSet<>();
+        HashSet<Integer> notUniqueValues = new HashSet<>();
 
-        for (int i = 0; i< matrix.length; i++) {
-            for (int j = 0; j< matrix[i].length; j++) {
-                uniqueValues.add(matrix[i][j]);
+        for (int[] ints : matrix) {
+            for (int anInt : ints) {
+                if (!uniqueValues.add(anInt)) {
+                    notUniqueValues.add(anInt);
+                }
             }
         }
+        uniqueValues.removeAll(notUniqueValues);
+
         return uniqueValues;
     }
 }

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 
-import static org.example.homework5.HW5_3.getFrequencyDictionary;
-import static org.example.homework5.MatrixProcessor.findUniqueInMatrix;
+import static org.example.homework5.tsk3.Tsk3.getFrequencyDictionary;
+import static org.example.homework5.tsk4.MatrixProcessor.findUniqueInMatrix;
 
 public class Homework5 {
     public static void testHW5_1() {}

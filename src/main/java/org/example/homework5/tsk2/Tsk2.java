@@ -1,4 +1,4 @@
-package org.example.homework5;
+package org.example.homework5.tsk2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,7 +20,7 @@ import java.util.Iterator;
  * Уникальных строк: 3
  * Строки с цифрами: 123orange
  */
-public class HW5_2 {
+public class Tsk2 {
     private HashSet<String> strings = new HashSet<>();
 
     public ArrayList<String> getStringsWithDigits() {

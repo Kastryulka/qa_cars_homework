@@ -1,8 +1,7 @@
-package org.example.homework5;
+package org.example.homework5.tsk1;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Objects;
 
 /** 1. Легкое: Учет студентов

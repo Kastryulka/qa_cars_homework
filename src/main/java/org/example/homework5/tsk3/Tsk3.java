@@ -1,4 +1,4 @@
-package org.example.homework5;
+package org.example.homework5.tsk3;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Дан ArrayList<String> со словами (например: ["apple", "banana", "apple", "cherry"]).
  * Напишите программу, которая создает HashMap<String, Integer>, где ключ — слово, а значение — сколько раз оно встречается.
  */
-public class HW5_3 {
+public class Tsk3 {
     public static HashMap<String, Integer> getFrequencyDictionary (ArrayList<String> words) {
         HashMap<String, Integer> freqDict = new HashMap<>();
 

@@ -30,7 +30,7 @@ public class Library {
     }
     public void removeBook(String isbn) {books.remove(isbn);}
     public ArrayList<Book> findBooksByAuthor(String author) {
-        ArrayList<Book> booksByAuthor = new ArrayList<>(books.values());
+        ArrayList<Book> booksByAuthor = new ArrayList<>();
 
         Iterator<Book> i = books.values().iterator();
 

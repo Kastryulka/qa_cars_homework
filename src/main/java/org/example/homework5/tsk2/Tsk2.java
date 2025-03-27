@@ -60,5 +60,10 @@ public class Tsk2 {
             }
             strings.add(str);
         } while (!str.equals("end"));
+        try {
+            reader.close();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

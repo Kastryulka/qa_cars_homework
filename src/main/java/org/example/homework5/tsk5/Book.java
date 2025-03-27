@@ -15,7 +15,7 @@ package org.example.homework5.tsk5;
  */
 public class Book {
     private String title, author;
-    private int year;
+    private int year; //год ИЗДАНИЯ
 
     public Book (String title, String author, int year) {
         setTitle(title);
@@ -29,4 +29,9 @@ public class Book {
     public String getTitle(){return title;}
     public String getAuthor(){return author;}
     public int getYear(){return year;}
+
+    @Override
+    public String toString() {
+        return "{" + title + ", " + author + "}";
+    }
 }

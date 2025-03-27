@@ -17,7 +17,7 @@ getAverageGrade() — возвращает средний балл.
 public class Student {
     private String name = "John Doe";
     private int age = -1;
-    private ArrayList<Integer> grades;
+    private ArrayList<Integer> grades = new ArrayList<>();
 
     /**
      * @param name имя студента, если строка пустая, значение по умолчанию - "John Doe"
@@ -43,10 +43,10 @@ public class Student {
     /// возвращает средний балл
     public double getAverageGrade() {
         int summ = 0;
-        for (int i = 0; i < grades.size() ;i++){
-            summ = grades.get(i-1);
+        for (Integer grade : grades) {
+            summ += grade;
         }
-        return summ;
+        return (double)summ/grades.size();
     }
 
     public void setName(String name) {

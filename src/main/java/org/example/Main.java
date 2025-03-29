@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // ДЗ 5.1:
-        Homework5.testHW5_1();
+//        Homework5.testHW5_1();
         // ДЗ 5.2:
 //        Homework5.testHW5_2();
         // ДЗ 5.3:
@@ -23,7 +23,7 @@ public class Main {
         // ДЗ 5.5:
 //        Homework5.testHW5_5();
         // ДЗ 5.6:
-//        Homework5.testHW5_6();
+        Homework5.testHW5_6();
 
         // ДЗ 4.1:
 //        Homework4.testHW4_1();

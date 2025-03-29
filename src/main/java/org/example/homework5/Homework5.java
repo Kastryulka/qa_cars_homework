@@ -13,6 +13,7 @@ import java.util.HashSet;
 
 import static org.example.homework5.tsk3.Tsk3.getFrequencyDictionary;
 import static org.example.homework5.tsk4.MatrixProcessor.findUniqueInMatrix;
+import static org.example.homework5.tsk6.Tsk6.playGame;
 
 public class Homework5 {
     public static void testHW5_1() {
@@ -34,7 +35,7 @@ public class Homework5 {
         System.out.println("средняя оценка Третьего " + students.get(2).getAverageGrade());
     }
     public static void testHW5_2() {
-        //тут мб тупнять с "уникальные", если имеется в виду "удалить дубли", то ок
+        //тут мб тупняк с "уникальные", если имеется в виду "удалить дубли", то ок
         String testData = "qwe\n" +
                 "asd1\n" +
                 "zxc2121\n" +
@@ -80,5 +81,5 @@ public class Homework5 {
         System.out.println(lib.findBooksByAuthor("Ник Перумов"));
         System.out.println(lib.findBooksByAuthor("Сергей Лукьяненко"));
     }
-    public static void testHW5_6() {/*продам гараж*/}
+    public static void testHW5_6() {playGame(System.in);}
 }

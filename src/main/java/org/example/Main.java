@@ -5,6 +5,7 @@ import org.example.homework4.Homework4;
 import org.example.homework4.Library;
 import org.example.homework4.Student;
 import org.example.homework5.Homework5;
+import org.example.homework6.Homework6;
 
 import java.io.InputStreamReader;
 import java.util.Scanner;
@@ -12,6 +13,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        // ДЗ 5.1:
+        Homework6.test11();
+        // ДЗ 5.2:
+        Homework6.test12();
+        // ДЗ 5.3:
+        Homework6.test13();
+        // ДЗ 5.4:
+        Homework6.test21();
+        // ДЗ 5.5:
+        Homework6.test22();
+        // ДЗ 5.6:
+        Homework6.test23();
+
         // ДЗ 5.1:
 //        Homework5.testHW5_1();
         // ДЗ 5.2:
@@ -23,7 +37,7 @@ public class Main {
         // ДЗ 5.5:
 //        Homework5.testHW5_5();
         // ДЗ 5.6:
-        Homework5.testHW5_6();
+//        Homework5.testHW5_6();
 
         // ДЗ 4.1:
 //        Homework4.testHW4_1();

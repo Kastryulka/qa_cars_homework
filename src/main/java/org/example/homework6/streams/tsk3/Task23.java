@@ -10,5 +10,5 @@ package org.example.homework6.streams.tsk3;
  * public static Collector<String, ?, String> joinWithComma()
  * public static void processLargeFile(String filePath) throws IOException
  */
-public class Tsk3 {
+public class Task23 {
 }

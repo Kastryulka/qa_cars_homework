@@ -8,5 +8,5 @@ package org.example.homework6.streams.tsk2;
  * Группировку по возрасту (Map<Integer, List<Person>>)
  * Сгенерируйте 100 случайных чисел и найдите 5 наибольших.
  */
-public class Tsk2 {
+public class Task22 {
 }

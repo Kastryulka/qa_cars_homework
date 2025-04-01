@@ -3,6 +3,7 @@ package org.example.homework6;
 import org.example.homework6.iterators.tsk1.Task1;
 import org.example.homework6.iterators.tsk2.Task2;
 import org.example.homework6.iterators.tsk3.Task3;
+import org.example.homework6.streams.tsk1.Task21;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -11,6 +12,7 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Homework6 {
     public static void test11() {
@@ -59,7 +61,24 @@ public class Homework6 {
         Collections.sort(testData, new Task3());
         System.out.println(testData);
     }
-    public static void test21() {}
+    public static void test21() {
+        List<String> testDataStr = new ArrayList<>();
+        testDataStr.add("1");
+        testDataStr.add("три");
+        testDataStr.add("");
+        testDataStr.add("       ");
+        testDataStr.add("123456");
+        testDataStr.add("десять сим");
+        System.out.println(Task21.task21(testDataStr).collect(Collectors.toList()));
+
+        List<Integer> testDataInt = new ArrayList<>();
+        testDataInt.add(1);
+        testDataInt.add(5);
+        testDataInt.add(10);
+        testDataInt.add(33);
+        testDataInt.add(0);
+        System.out.println(Task21.average(testDataInt)); // 49 / 5 = 9,8
+    }
     public static void test22() {}
     public static void test23() {}
 }

@@ -13,17 +13,17 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        // ДЗ 5.1:
+        // ДЗ 6.1:
         Homework6.test11();
-        // ДЗ 5.2:
+        // ДЗ 6.2:
         Homework6.test12();
-        // ДЗ 5.3:
+        // ДЗ 6.3:
         Homework6.test13();
-        // ДЗ 5.4:
+        // ДЗ 6.4:
         Homework6.test21();
-        // ДЗ 5.5:
+        // ДЗ 6.5:
         Homework6.test22();
-        // ДЗ 5.6:
+        // ДЗ 6.6:
         Homework6.test23();
 
         // ДЗ 5.1:
